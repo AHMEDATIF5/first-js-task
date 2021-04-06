@@ -1,0 +1,48 @@
+body
+{
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+section
+{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);;
+}
+/* program 1 */
+.p1 p
+{
+    width: 600px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2rem;
+}
+.p1 .para1
+{
+    position: relative;
+}
+.p1 .para1::before
+{
+    content: "Max :";
+    position: absolute;
+    left: -10%;
+    font-size: 18px;
+    color: #333;
+}
+.p1 .para2
+{
+    position: relative;
+}
+.p1 .para2::before
+{
+    content: "Min :";
+    position: absolute;
+    left: -10%;
+    font-size: 18px;
+    color: #333;
+}
+.p1 .para3
+{
+    line-height: 40px;
+    letter-spacing: 5px;
+}
